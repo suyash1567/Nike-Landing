@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+   
+}
+
+.container{
+    display: flex;
+   height: 100vh;
+    width: 100%;
+    position: absolute;
+}
+.shoe{
+    position: absolute;
+left:290px;
+top:5px;
+ z-index: 10;
+}
+.col-left{
+    z-index:2;
+    background: url('img/background.jpg');
+    background-position: center;
+    background-size: cover;
+    flex:3;
+    height: 100%;
+    position: relative;
+}
+.overlay{
+
+    flex:2;
+    height: 100%;
+    background: rgba(0,0,255,0.7);
+}
+.top-nav{
+    
+    display: flex;
+}
+.col-left img{
+    display: inline-block;
+    padding-top: 30px;
+    height:60px;
+    width:60px;
+    margin-left: 50px;
+    
+}
+.col-left ul{
+    display: flex;
+    list-style: none;
+    transition: color 0.5s;
+}
+hr{z-index: 2;
+    
+    height: 1px;
+}
+.col-left ul li{
+     display: inline-block;
+     padding-top: 30px;
+     font-family: 'Roboto','sans-serif';
+     font-weight: 700;
+     color:white;
+    cursor: pointer;
+    margin-left: 30px;
+    
+}
+.col-left ul :hover{
+    color:#000000;
+}
+.col-left h1{
+    font-family: 'roboto';
+    font-weight: 800;
+    font-style: italic;
+    position: absolute;
+    margin-left: 30%;
+    margin-top: 20%;
+    font-size: 110px;
+    color: rgba(255,255,255,0.4);
+}
+.sub-text-top{
+    font-family: 'roboto';
+    font-weight: 800;
+    font-style: italic;
+    position: absolute;
+    margin-left: 15%;
+    margin-top: 30%;
+    font-size: 70px;
+    color:rgba(255,255,255,0.4);
+}
+.sub-text-bot{
+    position: absolute;
+    font-size:80px;
+    font-family: 'roboto';
+    font-style: italic;
+    color: rgba(255,255,255,0.4);
+    bottom: 70px;
+    right:  190px;
+}
+.col-left h3{
+    font-family: 'roboto';
+    font-weight: 800;
+    font-style: italic;
+    position: absolute;
+    color:rgba(255,255,255,0.4);
+    font-size: 60px;
+    bottom: 35px;
+    right: 259px;
+}
+.col-left h4{
+    font-family: 'roboto';
+    font-weight: 800;
+    font-style: italic;
+    position: absolute;
+    color:rgba(255,255,255,0.4);
+    font-size: 40px;
+    bottom: 20px;
+    right:  200px;
+}
+.col-right{
+    flex:1;
+  position: relative;
+}
+.col-right .nikeimg{
+    position: absolute;
+    display: inline-block;
+    top:8%;
+    left:20%;
+    height: 300px;
+    width: 300px;
+    opacity: 0.2;
+   
+    
+    }
+.col-right .top-nav{
+    float: right;
+    
+}
+.nav-img{
+   margin-right: 40px;
+  margin-top: 40px;
+}
+
+.col-right img
+{margin-left: 40px;
+    height: 30px;
+    width: 30px;
+}
+.col-right .color-box{
+    position: absolute;
+height: 200px;
+width: 200px;
+background : white;
+bottom: 70px;
+left: 50px;
+box-shadow: 0 0px 10px grey;
+
+}
+.box-text{
+    position: relative;
+}
+.box-text1{
+    position: absolute;
+    top:-10px;
+    left:20px;
+}
+.box-text1 h1{
+    
+    font-family: 'roboto';
+    font-weight: 800;
+    font-weight: bold;
+    color: rgba(65, 63, 63, 0.6);
+}
+.box-text1 h2{
+    font-size:30px;
+    margin-top: -20px;
+    font-family: 'roboto';
+    font-weight: bold;
+}
+.box-text1 h3{
+    color: rgba(65, 63, 63, 0.6);
+    font-family: 'roboto';
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: -10px;
+}
+.box-text1 p{
+    color: rgba(65, 63, 63, 0.6);
+    font-family: 'roboto';
+    font-weight: bold;
+    
+    position: absolute;
+   
+}
+.colors{
+    position: absolute;
+    right:15px;
+    display: flex;
+    flex-direction: column;
+   
+}
+.blue{
+    height: 20px;
+    width: 20px;
+    background: blue;
+    border: 3px solid white;
+    outline: 1px solid gray;
+    margin-top: 7px;
+}
+.red{
+    border: 3px solid white;
+    outline: 1px solid gray;
+    margin-top: 7px;
+    height: 20px;
+    width: 20px;
+    background: red;
+    
+}
+.green{
+    border: 3px solid white;
+    outline: 1px solid gray;
+    margin-top: 7px;
+    background: lime;
+    height: 20px;
+    width: 20px;
+    
+}
+.grey{
+    border: 3px solid white;
+    outline: 1px solid gray;
+    margin-top: 7px;
+    background: grey;
+    height: 20px;
+    width: 20px;
+}
+.black{
+    border: 3px solid white;
+    outline: 1px solid gray;
+    margin-top: 7px;
+    background: black;
+    height: 20px;
+    width: 20px;
+}
+.social ul{
+    display: flex;
+    list-style: none;
+   writing-mode: vertical-lr;
+  
+
+}
+.social li{
+    font-family: 'roboto';
+    font-weight: bold;
+    color: rgba(0,0,0,0.6);
+    margin-top:30px;
+    transform: translateY(400px);
+}
